@@ -59,7 +59,7 @@
    font-family: var(--font3);
    color: white;
    font-size: 3.5em;
-   margin: auto 3em; 
+   margin: auto; 
 }
 
 .container header img{
@@ -71,7 +71,7 @@
     position: absolute;
     left: 100px;
     right: 100px;
-    top: 90px;
+    top: 80px;
     margin: 100px auto;
     padding: 25px 25px 20px 50px;
     background-color: #eee;
