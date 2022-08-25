@@ -11,8 +11,6 @@ musicPlayer.querySelector('audio').play();
 
 
 closePlayer.onclick =() =>{ 
-
-    closePlayer.classList.toggle('fa-times'); 
     musicPlayer.classList.toggle('active'); 
     sectionPlayer.classList.toggle('active'); 
 }

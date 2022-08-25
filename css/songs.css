@@ -22,6 +22,8 @@
     font: var(--font2);
 }
 
+/* header */
+
 header{
     box-sizing: border-box;
     display: flex;
@@ -43,6 +45,7 @@ header img{
    margin-bottom: 8px;
  
  }
+ /* section */
 
  section{
     padding-top: 5vh;
@@ -59,16 +62,11 @@ header img{
     font-size: 2em;
     text-align: center;
     color: rgb(51, 51, 51);
-    width: 300px;
     margin: auto auto 30px auto;
 
 }
 
 section.normal{
-    background-image: url(/iron-maiden/images/eddie3.png);
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: 200px;
     background-color: var(--color2);
 }
 
@@ -86,21 +84,47 @@ section.normal{
     text-shadow: 1px 1px 1px black;
  }
 
+/***************** songs *****************/
 
+/* Aces High */
 
- section#aces1{
-     background-image: url("/iron-maiden/images/aces1.webp");
+ section#aces_1{
+     background-image: url("/iron-maiden/images/aces_1.webp");
  }
 
- section#aces2{
-     background-image: url("/iron-maiden/images/aces2.jpg");
+ section#aces_2{
+     background-image: url("/iron-maiden/images/aces_2.jpg");
     
  }
 
- section.image.last.active{
-    padding-bottom: 150px;
+ /* The Writing on the Wall */
+
+ section#wall_1{
+    background-image: url("/iron-maiden/images/wall1.jpg");
+}
+
+section#wall_2{
+    background-image: url("/iron-maiden/images/wall2.jpg");
+}
+
+/* When The Wild Wind Blows */
+
+section#when_1{
+    background-image: url("/iron-maiden/images/when_1.jpg");
+}
+
+ /***************** songs *****************/
+
+
+ /* bottom */
+
+ section.image.last{
+    padding-bottom: 100px;
  }
 
+ section.image.last.active{
+    padding-bottom: 30px;
+ }
 
  section#section-bottom{
      padding: 5px;
@@ -108,14 +132,14 @@ section.normal{
      box-shadow: 3px 3px 10px rgb(0, 0, 0);
  }
 
-section .before-after{
+section .back-next{
     display: flex;
     width: 30%;
     justify-content: space-between;
     margin: auto;
  }
 
- section .before-after a{
+ section .back-next a{
 
     width: 5rem;
     height: 2.8rem;
@@ -130,17 +154,20 @@ section .before-after{
 
  }
 
- section .before-after a:hover{
+ section .back-next a:hover{
      background: #eee;
  }
 
- section #before{
+ section #back{
     transform: scaleX(-1);
  }
 
+ /* music-player */
+
+
  .music-player{
      position: fixed;
-     bottom: -125px;
+     bottom: 0px;
      left: 0;
      right: 0;
      background-color: #fff;
@@ -148,7 +175,7 @@ section .before-after{
  }
 
  .music-player.active{
-     bottom: 0;
+     bottom: -125px;
  }
 
  .music-player .music-title{
