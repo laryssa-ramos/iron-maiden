@@ -34,6 +34,11 @@ header{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.331);
 }
 
+header a{
+   text-decoration: none;
+   margin: auto;
+}
+
 header h1{
     font-family: var(--font3);
     color: white;
@@ -94,7 +99,7 @@ section.normal{
 
  section#aces_2{
      background-image: url("/iron-maiden/images/aces_2.jpg");
-    
+     background-position: center center;
  }
 
  /* The Writing on the Wall */
@@ -113,6 +118,30 @@ section#when_1{
     background-image: url("/iron-maiden/images/when_1.jpg");
 }
 
+section#when_2{
+    background-image: url("/iron-maiden/images/when_2.jpg");
+    background-position: center center;
+}
+
+section#when_3{
+    background-image: url("/iron-maiden/images/when_3.jpg");
+    background-position: center center;
+}
+
+/* Drem of Mirros */
+
+section#dream_1{
+    background-image: url("/iron-maiden/images/dream_1.jpg");
+    background-position: bottom center;
+}
+
+section#dream_2{
+    background-image: url("/iron-maiden/images/dream_2.webp");
+}
+
+section#dream_3{
+    background-image: url("/iron-maiden/images/dream_3.jpg");
+}
  /***************** songs *****************/
 
 
@@ -137,6 +166,7 @@ section .back-next{
     width: 30%;
     justify-content: space-between;
     margin: auto;
+    padding: 5px;
  }
 
  section .back-next a{
