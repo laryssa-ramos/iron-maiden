@@ -1,7 +1,7 @@
 header{
     box-sizing: border-box;
     display: flex;
-    height: 150px;
+    height: 130px;
     padding: 0 120px;
     justify-content: center;
     background-color: rgb(34, 34, 34);
@@ -16,7 +16,7 @@ header a{
 header h1{
     font-family: var(--font3);
     color: white;
-    font-size: 4em;
+    font-size: 3.2em;
     margin: auto; 
  }
  

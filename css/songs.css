@@ -31,7 +31,7 @@
     line-height: 1.5em;
     padding-left: 30px;
     font-family: var(--font1);
-    font-size: 1.8em;
+    font-size: 1.65em;
     font-variant: small-caps;
     color: var(--color3);
  }
@@ -39,7 +39,7 @@
  section h2{
 
     font-family: var(--font1);
-    font-size: 1.75em;
+    font-size: 1.65em;
     text-align: center;
     color: var(--color3);
     margin: auto auto 50px -90px;
@@ -69,7 +69,7 @@ section.normal{
 /* Aces High */
 
  section#aces_1{
-     background-image: url("/iron-maiden/images/aces_1.webp");
+     background-image: url("/iron-maiden/images/aces_1.jpg");
  }
 
  section#aces_2{
@@ -95,23 +95,23 @@ section#when_1{
 
 section#when_2{
     background-image: url("/iron-maiden/images/when_2.jpg");
-    background-position: center center;
+    background-position: top center;
 }
 
 section#when_3{
     background-image: url("/iron-maiden/images/when_3.jpg");
-    background-position: top center;
 }
 
 /* Drem of Mirros */
 
 section#dream_1{
-    background-image: url("/iron-maiden/images/dream_2.jpg");
-    background-position: bottom center;
+    background-image: url("/iron-maiden/images/dream_1.jpg");
+    background-position: top center;
 }
 
 section#dream_2{
-    background-image: url("/iron-maiden/images/dream_1.jpg");
+    background-image: url("/iron-maiden/images/dream_2.jpg");
+    background-position: top center;
 }
 
 section#dream_3{
@@ -122,6 +122,7 @@ section#dream_3{
 
 section#dance_1{
     background-image: url("/iron-maiden/images/dance_1.jpg");
+    background-position: cover;
 }
 
 section#dance_2{
@@ -150,13 +151,29 @@ section#wicker_1{
 }
 
 /* No More Lies */
-section#gates_1{
-    background-image: url("/iron-maiden/images/gates_1.jpg");
+section#more_1{
+    background-image: url("/iron-maiden/images/more_1.jpg");
+}
+
+section#more_2{
+    background-image: url("/iron-maiden/images/more_2.jpg");
+}
+
+section#more_3{
+    background-image: url("/iron-maiden/images/more_3.jpg");
+}
+
+section p#no_more{
+    padding-right: 140px;
 }
 
 /* Brave New World */
-section#gates_1{
-    background-image: url("/iron-maiden/images/gates_1.jpg");
+section#brave_1{
+    background-image: url("/iron-maiden/images/brave_1.jpg");
+}
+
+section#brave_2{
+    background-image: url("/iron-maiden/images/brave_2.jpg");
 }
 
  /**************************************/
@@ -211,7 +228,7 @@ section .back-next{
  }
 
  section .back-next a:hover{
-     background: rgb(239, 246, 108);
+     background: rgb(84, 29, 27);
  }
 
  section #back{

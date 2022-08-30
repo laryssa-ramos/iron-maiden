@@ -48,7 +48,7 @@
     position: absolute;
     display: flex;
     width: 100%;
-    height: 150px;
+    height: 130px;
     padding: 0 120px;
     justify-content: center;
     background-color: rgb(34, 34, 34);
@@ -88,7 +88,7 @@
 }
 
 .container main ol li a:hover{
-    color: rgb(117, 46, 46);
+    color: rgb(210, 196, 100);
 }
 
 .container footer{
@@ -108,3 +108,10 @@ font-size: 15pt;
 .container footer p{
     margin-left: -30px;
 }
+
+/*Cŕeditos
+
+https://ironmaidenlegacy.com/wallpapers/
+https://www.nicepng.com/maxp/u2w7e6a9y3r5a9i1/
+https://br.pinterest.com/pin/219057969348212969/
+*/
