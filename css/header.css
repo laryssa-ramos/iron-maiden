@@ -1,0 +1,26 @@
+header{
+    box-sizing: border-box;
+    display: flex;
+    height: 150px;
+    padding: 0 120px;
+    justify-content: center;
+    background-color: rgb(34, 34, 34);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.331);
+}
+
+header a{
+   text-decoration: none;
+   margin: auto;
+}
+
+header h1{
+    font-family: var(--font3);
+    color: white;
+    font-size: 4em;
+    margin: auto; 
+ }
+ 
+header img{
+   margin-bottom: 8px;
+ 
+ }

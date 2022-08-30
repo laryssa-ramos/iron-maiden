@@ -13,6 +13,7 @@
     --font3: 'Iron Maiden', cursive;
     --color1: rgb(202, 202, 202);
     --color2: #eee;
+    --color3: #000;
 }
 
 *{
@@ -22,34 +23,6 @@
     font: var(--font2);
 }
 
-/* header */
-
-header{
-    box-sizing: border-box;
-    display: flex;
-    height: 150px;
-    padding: 0 120px;
-    justify-content: center;
-    background-color: rgb(34, 34, 34);
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.331);
-}
-
-header a{
-   text-decoration: none;
-   margin: auto;
-}
-
-header h1{
-    font-family: var(--font3);
-    color: white;
-    font-size: 3.5em;
-    margin: auto; 
- }
- 
-header img{
-   margin-bottom: 8px;
- 
- }
  /* section */
 
  section{
@@ -60,14 +33,16 @@ header img{
     font-family: var(--font1);
     font-size: 1.8em;
     font-variant: small-caps;
+    color: var(--color3);
  }
  
  section h2{
+
     font-family: var(--font1);
-    font-size: 2em;
+    font-size: 1.75em;
     text-align: center;
-    color: rgb(51, 51, 51);
-    margin: auto auto 30px auto;
+    color: var(--color3);
+    margin: auto auto 50px -90px;
 
 }
 
@@ -125,24 +100,66 @@ section#when_2{
 
 section#when_3{
     background-image: url("/iron-maiden/images/when_3.jpg");
-    background-position: center center;
+    background-position: top center;
 }
 
 /* Drem of Mirros */
 
 section#dream_1{
-    background-image: url("/iron-maiden/images/dream_1.jpg");
+    background-image: url("/iron-maiden/images/dream_2.jpg");
     background-position: bottom center;
 }
 
 section#dream_2{
-    background-image: url("/iron-maiden/images/dream_2.webp");
+    background-image: url("/iron-maiden/images/dream_1.jpg");
 }
 
 section#dream_3{
     background-image: url("/iron-maiden/images/dream_3.jpg");
 }
- /***************** songs *****************/
+
+/* Dance of Death */
+
+section#dance_1{
+    background-image: url("/iron-maiden/images/dance_1.jpg");
+}
+
+section#dance_2{
+    background-image: url("/iron-maiden/images/dance_2.jpg");
+}
+
+/* Blood Brothers */
+
+section#blood_1{
+    background-image: url("/iron-maiden/images/blood_1.jpg");
+}
+
+section#blood_2{
+    background-image: url("/iron-maiden/images/blood_2.jpg");
+}
+
+/*Gates of Tomorrow*/
+
+section#gates_1{
+    background-image: url("/iron-maiden/images/gates_1.jpg");
+}
+
+/* The Wicker Man */
+section#wicker_1{
+    background-image: url("/iron-maiden/images/wicker_1.jpg");
+}
+
+/* No More Lies */
+section#gates_1{
+    background-image: url("/iron-maiden/images/gates_1.jpg");
+}
+
+/* Brave New World */
+section#gates_1{
+    background-image: url("/iron-maiden/images/gates_1.jpg");
+}
+
+ /**************************************/
 
 
  /* bottom */
@@ -154,6 +171,15 @@ section#dream_3{
  section.image.last.active{
     padding-bottom: 30px;
  }
+
+ section.normal.last{
+    padding-bottom: 100px;
+ }
+
+ section.normal.last.active{
+    padding-bottom: 30px;
+ }
+
 
  section#section-bottom{
      padding: 5px;
@@ -185,7 +211,7 @@ section .back-next{
  }
 
  section .back-next a:hover{
-     background: #eee;
+     background: rgb(239, 246, 108);
  }
 
  section #back{
