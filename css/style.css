@@ -8,9 +8,9 @@
 }
 
 :root{
-    --font1: 'Metal Mania', sans-serif
+    --font1: 'Metal Mania', sans-serif;
     --font2: 'Roboto Condensed', sans-serif;
-    --font3: 'Iron Maiden', sans-serif
+    --font3: 'Iron Maiden', sans-serif;
 }
 
 *{
@@ -76,7 +76,7 @@
 
 .container main h2{
     display: flex;
-    margin-bottom: 5px;
+    margin:auto ;
     font-size: 25pt;
     justify-content: center;
 }
