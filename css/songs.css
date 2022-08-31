@@ -30,7 +30,7 @@
     padding-bottom: 2vh;
     line-height: 1.5em;
     padding-left: 30px;
-    font-family: var(--font1);
+    font-family: var(--font1), sans-serif;
     font-size: 1.65em;
     font-variant: small-caps;
     color: var(--color3);

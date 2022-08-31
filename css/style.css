@@ -18,7 +18,7 @@
     padding: 0;
     box-sizing: border-box;
     font-variant: small-caps;
-    font: var(--font2);
+    font: var(--font2), sans-serif ;
 }
 
 .container{
