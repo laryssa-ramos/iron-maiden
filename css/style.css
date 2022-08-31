@@ -76,7 +76,7 @@
 
 .container main h2{
     display: flex;
-    margin:auto ;
+    margin: auto;
     font-size: 25pt;
     justify-content: center;
 }
