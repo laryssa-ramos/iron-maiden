@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Iron Maiden';
-    src: url('/iron-maiden/fonts/maiden.ttf');
+    src: url('../fonts/maiden.ttf');
 }
 
 :root{
@@ -29,7 +29,7 @@
     padding-top: 5vh;
     padding-bottom: 2vh;
     line-height: 1.5em;
-    padding-left: 30px;
+    padding: 5%;
     font-family: var(--font1), sans-serif;
     font-size: 1.65em;
     font-variant: small-caps;
@@ -42,8 +42,8 @@
     font-size: 1.65em;
     text-align: center;
     color: var(--color3);
-    margin: auto auto 50px -90px;
-
+    margin-bottom: 30px;
+    display: flex;
 }
 
 section.normal{
@@ -56,10 +56,12 @@ section.normal{
      box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.434);
      background-size: cover;
      background-attachment: fixed;
+    background-position: center center;
 
  }section.image p{
     display: inline-block;
     padding: 20px;
+    margin-right: 5%;
     background-color: rgba(0, 0, 0, 0.529);
     text-shadow: 1px 1px 1px black;
  }
@@ -69,98 +71,98 @@ section.normal{
 /* Aces High */
 
  section#aces_1{
-     background-image: url("/iron-maiden/images/aces_1.jpg");
+     background-image: url("../images/aces_1.jpg");
  }
 
  section#aces_2{
-     background-image: url("/iron-maiden/images/aces_2.jpg");
+     background-image: url("../images/aces_2.jpg");
      background-position: center center;
  }
 
  /* The Writing on the Wall */
 
  section#wall_1{
-    background-image: url("/iron-maiden/images/wall1.jpg");
+    background-image: url("../images/wall1.jpg");
 }
 
 section#wall_2{
-    background-image: url("/iron-maiden/images/wall2.jpg");
+    background-image: url("../images/wall2.jpg");
 }
 
 /* When The Wild Wind Blows */
 
 section#when_1{
-    background-image: url("/iron-maiden/images/when_1.jpg");
+    background-image: url("../images/when_1.jpg");
 }
 
 section#when_2{
-    background-image: url("/iron-maiden/images/when_2.jpg");
+    background-image: url("../images/when_2.jpg");
     background-position: top center;
 }
 
 section#when_3{
-    background-image: url("/iron-maiden/images/when_3.jpg");
+    background-image: url("../images/when_3.jpg");
 }
 
 /* Drem of Mirros */
 
 section#dream_1{
-    background-image: url("/iron-maiden/images/dream_1.jpg");
+    background-image: url("../images/dream_1.jpg");
     background-position: top center;
 }
 
 section#dream_2{
-    background-image: url("/iron-maiden/images/dream_2.jpg");
+    background-image: url("../images/dream_2.jpg");
     background-position: top center;
 }
 
 section#dream_3{
-    background-image: url("/iron-maiden/images/dream_3.jpg");
+    background-image: url("../images/dream_3.jpg");
 }
 
 /* Dance of Death */
 
 section#dance_1{
-    background-image: url("/iron-maiden/images/dance_1.jpg");
+    background-image: url("../images/dance_1.jpg");
     background-position: cover;
 }
 
 section#dance_2{
-    background-image: url("/iron-maiden/images/dance_2.jpg");
+    background-image: url("../images/dance_2.jpg");
 }
 
 /* Blood Brothers */
 
 section#blood_1{
-    background-image: url("/iron-maiden/images/blood_1.jpg");
+    background-image: url("../images/blood_1.jpg");
 }
 
 section#blood_2{
-    background-image: url("/iron-maiden/images/blood_2.jpg");
+    background-image: url("../images/blood_2.jpg");
 }
 
 /*Gates of Tomorrow*/
 
 section#gates_1{
-    background-image: url("/iron-maiden/images/gates_1.jpg");
+    background-image: url("../images/gates_1.jpg");
 }
 
 /* The Wicker Man */
 section#wicker_1{
-    background-image: url("/iron-maiden/images/wicker_1.jpg");
+    background-image: url("../images/wicker_1.jpg");
 }
 
 /* No More Lies */
 section#more_1{
-    background-image: url("/iron-maiden/images/more_1.jpg");
+    background-image: url("../images/more_1.jpg");
 }
 
 section#more_2{
-    background-image: url("/iron-maiden/images/more_2.jpg");
+    background-image: url("../images/more_2.jpg");
 }
 
 section#more_3{
-    background-image: url("/iron-maiden/images/more_3.jpg");
+    background-image: url("../images/more_3.jpg");
 }
 
 section p#no_more{
@@ -169,11 +171,11 @@ section p#no_more{
 
 /* Brave New World */
 section#brave_1{
-    background-image: url("/iron-maiden/images/brave_1.jpg");
+    background-image: url("../images/brave_1.jpg");
 }
 
 section#brave_2{
-    background-image: url("/iron-maiden/images/brave_2.jpg");
+    background-image: url("../images/brave_2.jpg");
 }
 
  /**************************************/
@@ -206,7 +208,7 @@ section#brave_2{
 
 section .back-next{
     display: flex;
-    width: 30%;
+    width: 50%;
     justify-content: space-between;
     margin: auto;
     padding: 5px;
@@ -298,3 +300,10 @@ section .back-next{
 }
 
 
+@media(max-width:429px) {
+    section h2{
+
+justify-content: center;
+}
+    
+}

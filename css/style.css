@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Iron Maiden';
-    src: url('/iron-maiden/fonts/maiden.ttf');
+    src: url('../fonts/maiden.ttf');
 }
 
 :root{
@@ -26,18 +26,19 @@
     font-family: var(--font1);
     height: 100vh;
     overflow: hidden;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;}
 
 .container::before{
     content: '';
-    display: block;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     opacity: 0.6;
-    background-image: url('/iron-maiden/images/eddie-bg.jpg');
+    background-image: url('../images/eddie-bg.jpg');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,10 +62,7 @@
 
 .container main{
     position: absolute;
-    left: 50px;
-    right: 100px;
-    top: 70px;
-    margin: 100px auto;
+    margin-top: -50px;
     padding: 25px 25px 20px 50px;
     background-color: #eee;
     border-radius: 10px;
@@ -77,6 +75,7 @@
 .container main h2{
     display: flex;
     margin: auto;
+    margin-bottom: 10px;
     font-size: 25pt;
     justify-content: center;
 }
@@ -105,9 +104,6 @@ color: #eee;
 font-size: 15pt;
 }
 
-.container footer p{
-    margin-left: -30px;
-}
 
 /*Cŕeditos
 
@@ -115,3 +111,20 @@ https://ironmaidenlegacy.com/wallpapers/
 https://www.nicepng.com/maxp/u2w7e6a9y3r5a9i1/
 https://br.pinterest.com/pin/219057969348212969/
 */
+
+@media (max-width: 705px) {
+	.container main{
+        width: 25rem;
+    }
+
+    .container main h2{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 422px) {
+	.container main{
+        width: 19rem;
+    }
+}
