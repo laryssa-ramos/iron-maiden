@@ -24,7 +24,7 @@
 .container{
     position: relative;
     font-family: var(--font1);
-    height: 100vh;
+    height: 88vh;
     overflow: hidden;
     display: flex;
     align-items: center;

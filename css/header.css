@@ -4,6 +4,7 @@ header{
     padding: 0 8%;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: rgb(34, 34, 34);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.331);
 }
@@ -17,7 +18,7 @@ header h1{
     font-family: var(--font3);
     color: white;
     font-size: 2.2em;
-    margin: auto; 
+    margin: 12px; 
     
  }
  
@@ -28,17 +29,4 @@ header img{
  }
 	
 
- @media (max-width: 700px) {
-    header h1{
-        font-size: 2rem;
-    }
 
-}	
-
-
-@media (max-width: 515px) {
-    header h1{
-        font-size: 1rem;
-    }
-
-}	
